@@ -1,0 +1,4 @@
+"use strict";function validateForm(){var form=document.forms.commentForm,x=form.author.value,y=form.email.value,z=form.comment.value,flag=!0,field1=document.getElementById("field1"),field2=document.getElementById("field2"),field3=document.getElementById("field3");if(x===null||x===""){field1.innerHTML=comment_data.name;flag=!1}else{field1.innerHTML=""}
+if(y===null||y===""){field2.innerHTML=comment_data.email;flag=!1}else{field2.innerHTML=""}
+if(z===null||z===""){field3.innerHTML=comment_data.comment;flag=!1}else{field3.innerHTML=""}
+if(flag===!1){return!1}}
